@@ -24,4 +24,10 @@ class HomeController
     {
         return view('pages.wisata');
     }
+
+    public function beritaDetail()
+    {
+        // Akan memanggil file resources/views/pages/berita-detail.blade.php
+        return view('pages.berita-detail');
+    }
 }

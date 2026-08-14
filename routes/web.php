@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Admin\DashboardController;
 
 // ==========================================
@@ -16,7 +15,6 @@ Route::prefix('admin')->name('admin.')->group(function () {
     // Nanti route untuk CRUD UMKM dan Wisata ditaruh di dalam grup ini juga
     
 });
-
 
 // ==========================================
 // 2. ROUTE PENGUNJUNG (FRONTEND)
@@ -37,7 +35,19 @@ Route::get('/umkm', function () {
     return view('pages.umkm');
 });
 
-// Rute untuk halaman Berita (Ini yang baru ditambahkan)
+// Rute untuk halaman Berita
 Route::get('/berita', function () {
     return view('pages.berita');
 });
+
+// Rute untuk halaman Detail Berita (INI YANG BARU)
+Route::get('/berita/detail', function () {
+    return view('pages.berita-detail');
+});
+
+// ==========================================
+// 3. ROUTE AUTHENTICATION
+// ==========================================
+Route::get('/login', function () {
+    return view('admin.auth.login');
+})->name('login')->middleware('guest');

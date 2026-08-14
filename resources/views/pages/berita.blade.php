@@ -167,7 +167,7 @@
                                     <h4 class="text-xl font-bold text-slate-900 leading-tight mb-2 group-hover:text-emerald-600 transition-colors">Pelatihan Anyaman Bambu Sukses Tarik Minat Pemuda Desa</h4>
                                 </a>
                                 <p class="text-slate-500 text-sm line-clamp-2 mb-4">Dalam upaya melestarikan kerajinan lokal dan meningkatkan kemandirian ekonomi, Pokdarwis mengadakan pelatihan menganyam bambu secara gratis.</p>
-                                <a href="#" class="text-emerald-600 text-sm font-bold flex items-center gap-1 group-hover:gap-2 transition-all mt-auto">Baca selengkapnya <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg></a>
+                                <a href="{{ url('/berita/detail') }}" class="text-emerald-600 text-sm font-bold flex items-center gap-1 group-hover:gap-2 transition-all mt-auto">Baca selengkapnya <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg></a>
                             </div>
                         </article>
 
@@ -189,7 +189,7 @@
                                     <h4 class="text-xl font-bold text-slate-900 leading-tight mb-2 group-hover:text-emerald-600 transition-colors">Siap-siap! Festival Jajanan Tradisional Digelar Minggu Depan</h4>
                                 </a>
                                 <p class="text-slate-500 text-sm line-clamp-2 mb-4">Mendoan panas, getuk, dan klepon khas Karangcengis akan memanjakan lidah pengunjung dalam festival tahunan di halaman Balai Desa.</p>
-                                <a href="#" class="text-emerald-600 text-sm font-bold flex items-center gap-1 group-hover:gap-2 transition-all mt-auto">Baca selengkapnya <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg></a>
+                                <a href="{{ url('/berita/detail') }}" class="text-emerald-600 text-sm font-bold flex items-center gap-1 group-hover:gap-2 transition-all mt-auto">Baca selengkapnya <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg></a>
                             </div>
                         </article>
 
@@ -211,7 +211,7 @@
                                     <h4 class="text-xl font-bold text-slate-900 leading-tight mb-2 group-hover:text-emerald-600 transition-colors">Sistem Pengairan Kebun Berbasis IoT Mulai Diterapkan</h4>
                                 </a>
                                 <p class="text-slate-500 text-sm line-clamp-2 mb-4">Mahasiswa KKN Universitas ternama bekerja sama dengan petani lokal meluncurkan alat penyiram cerdas yang bisa dipantau langsung dari HP.</p>
-                                <a href="#" class="text-emerald-600 text-sm font-bold flex items-center gap-1 group-hover:gap-2 transition-all mt-auto">Baca selengkapnya <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg></a>
+                                <a href="{{ url('/berita/detail') }}" class="text-emerald-600 text-sm font-bold flex items-center gap-1 group-hover:gap-2 transition-all mt-auto">Baca selengkapnya <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg></a>
                             </div>
                         </article>
 
