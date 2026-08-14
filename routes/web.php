@@ -4,8 +4,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Admin\DashboardController;
 
-
-// Route Khusus Admin
+// ==========================================
+// 1. ROUTE KHUSUS ADMIN
+// ==========================================
 Route::prefix('admin')->name('admin.')->group(function () {
     
     // URL: /admin
@@ -16,8 +17,10 @@ Route::prefix('admin')->name('admin.')->group(function () {
     
 });
 
-Route::get('/', [HomeController::class, 'home']); 
-Route::get('/umkm', [HomeController::class, 'umkm']);
+
+// ==========================================
+// 2. ROUTE PENGUNJUNG (FRONTEND)
+// ==========================================
 
 // Rute untuk halaman utama (Home)
 Route::get('/', function () {
@@ -29,7 +32,12 @@ Route::get('/wisata', function () {
     return view('pages.wisata');
 });
 
-// Tambahkan baris ini di routes/web.php
+// Rute untuk halaman Hasil Bumi & UMKM
 Route::get('/umkm', function () {
     return view('pages.umkm');
+});
+
+// Rute untuk halaman Berita (Ini yang baru ditambahkan)
+Route::get('/berita', function () {
+    return view('pages.berita');
 });
