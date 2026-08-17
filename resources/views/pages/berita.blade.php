@@ -11,36 +11,34 @@
         <div class="absolute right-0 bottom-0 w-72 h-72 bg-teal-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+            
+            <!-- Judul Halaman -->
+            <div class="mb-10">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight">
+                    Kabar <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-500">Desa</span>
+                </h1>
+            </div>
+
+            <!-- Kategori & Search (Sejajar) -->
+            <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-5">
                 
-                <!-- Judul Halaman -->
-                <div class="w-full md:w-1/2">
-                    <span class="inline-flex items-center gap-2 text-emerald-600 font-extrabold text-xs tracking-widest uppercase mb-3 px-4 py-1.5 rounded-full bg-emerald-100/50 border border-emerald-200/50 shadow-sm">
-                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                        Update Desa
-                    </span>
-                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight">
-                        Kabar <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-500">Desa</span>
-                    </h1>
+                <!-- Kategori / Tab -->
+                <div class="flex overflow-x-auto gap-3 pb-2 scrollbar-hide flex-1">
+                    <a href="#" class="whitespace-nowrap px-6 py-3 rounded-2xl bg-emerald-600 text-white text-sm font-bold shadow-md shadow-emerald-500/30 hover:-translate-y-0.5 transition-transform">Semua Berita</a>
+                    <a href="#" class="whitespace-nowrap px-6 py-3 rounded-2xl bg-white text-slate-600 text-sm font-bold shadow-sm hover:shadow-md hover:text-emerald-600 transition-all">Pemerintahan</a>
+                    <a href="#" class="whitespace-nowrap px-6 py-3 rounded-2xl bg-white text-slate-600 text-sm font-bold shadow-sm hover:shadow-md hover:text-emerald-600 transition-all">Pariwisata</a>
+                    <a href="#" class="whitespace-nowrap px-6 py-3 rounded-2xl bg-white text-slate-600 text-sm font-bold shadow-sm hover:shadow-md hover:text-emerald-600 transition-all">Pertanian & UMKM</a>
+                    <a href="#" class="whitespace-nowrap px-6 py-3 rounded-2xl bg-white text-slate-600 text-sm font-bold shadow-sm hover:shadow-md hover:text-emerald-600 transition-all">Agenda</a>
                 </div>
 
                 <!-- Search Bar -->
-                <div class="w-full md:w-1/3">
+                <div class="w-full lg:w-80 shrink-0">
                     <div class="relative w-full shadow-sm group">
-                        <input type="text" placeholder="Cari kabar terbaru..." class="w-full pl-12 pr-4 py-3.5 rounded-2xl border-none shadow-[0_8px_30px_rgb(0,0,0,0.04)] bg-white focus:ring-4 focus:ring-emerald-500/20 outline-none text-sm font-medium transition-all group-hover:shadow-[0_8px_30px_rgb(16,185,129,0.1)]">
+                        <input type="text" placeholder="Cari kabar terbaru..." class="w-full pl-12 pr-4 py-3 rounded-2xl border-none shadow-[0_8px_30px_rgb(0,0,0,0.04)] bg-white focus:ring-4 focus:ring-emerald-500/20 outline-none text-sm font-medium transition-all group-hover:shadow-[0_8px_30px_rgb(16,185,129,0.1)]">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-emerald-500 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
                     </div>
                 </div>
 
-            </div>
-
-            <!-- Kategori / Tab (Gaya Elegan) -->
-            <div class="flex overflow-x-auto gap-3 mt-10 pb-2 scrollbar-hide">
-                <a href="#" class="whitespace-nowrap px-6 py-2.5 rounded-2xl bg-emerald-600 text-white text-sm font-bold shadow-md shadow-emerald-500/30 hover:-translate-y-0.5 transition-transform">Semua Berita</a>
-                <a href="#" class="whitespace-nowrap px-6 py-2.5 rounded-2xl bg-white text-slate-600 text-sm font-bold shadow-sm hover:shadow-md hover:text-emerald-600 transition-all">Pemerintahan</a>
-                <a href="#" class="whitespace-nowrap px-6 py-2.5 rounded-2xl bg-white text-slate-600 text-sm font-bold shadow-sm hover:shadow-md hover:text-emerald-600 transition-all">Pariwisata</a>
-                <a href="#" class="whitespace-nowrap px-6 py-2.5 rounded-2xl bg-white text-slate-600 text-sm font-bold shadow-sm hover:shadow-md hover:text-emerald-600 transition-all">Pertanian & UMKM</a>
-                <a href="#" class="whitespace-nowrap px-6 py-2.5 rounded-2xl bg-white text-slate-600 text-sm font-bold shadow-sm hover:shadow-md hover:text-emerald-600 transition-all">Agenda</a>
             </div>
         </div>
     </section>
